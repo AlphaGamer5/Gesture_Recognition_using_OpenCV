@@ -7,9 +7,12 @@ import HandTrackingModule as htm
 import time
 import pyautogui
 
+####################
+
 pyautogui.FAILSAFE = True
 
 ####################
+cam = 0
 wCam, hCam = 640, 480
 
 frameR = 100
@@ -22,7 +25,7 @@ pX,pY = 0, 0
 cX,cY = 0, 0
 wScr, hScr = pyautogui.size()
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(cam)
 
 cap.set(3,wCam)
 cap.set(4,hCam)
