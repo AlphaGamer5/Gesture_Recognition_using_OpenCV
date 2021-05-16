@@ -72,9 +72,9 @@ while True:
         elif sum(fingers) == 5:
             pyautogui.press('space')
 
-
     cTime = time.time()
-    fps = 1/ (cTime - pTime)
+    time.sleep(0.01)
+    fps = 1.0 / (cTime - pTime)
     pTime = cTime
     cv2.putText(img, str(int(fps)),(10, 70),cv2.FONT_HERSHEY_COMPLEX,3,(255,0,0))
 
