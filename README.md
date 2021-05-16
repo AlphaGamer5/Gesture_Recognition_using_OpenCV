@@ -22,3 +22,5 @@ Feel free to use this code for your own projects or make pull requests on this p
 **Note: If you are using a webcam, other than the one provided with the laptop, change the value of `cam` variable in [virtualMouse.py Line: 15](./virtualMouse.py).**
 
 ***Happy Learning***
+
+Created By - Shivam Nayak. 
